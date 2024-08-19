@@ -2,6 +2,10 @@
 
 This project demonstrates creating a WebAssembly (Wasm) module using Rust, and interacting with it from a web page. The module includes a basic `greet` function that returns a greeting message.
 
+## Why WebAssembly?
+
+WebAssembly (Wasm) allows for high-performance execution of code in web browsers, enabling languages like Rust, C++, and others to run efficiently alongside JavaScript. Exploring Wasm is valuable for leveraging the performance and capabilities of these languages on the web, expanding possibilities for complex applications and improving execution speed.
+
 ## Project Structure
 
 - `Cargo.toml`: Rust project configuration.
