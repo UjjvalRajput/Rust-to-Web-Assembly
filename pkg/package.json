@@ -1,0 +1,15 @@
+{
+  "name": "rust-wasm-greet",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_wasm_greet_bg.wasm",
+    "rust_wasm_greet.js",
+    "rust_wasm_greet.d.ts"
+  ],
+  "main": "rust_wasm_greet.js",
+  "types": "rust_wasm_greet.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
